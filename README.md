@@ -1,6 +1,8 @@
 # ML-Assignment-1
 Description: IMDB Top weekly movie scraper 
 
+-------------------------------------------------------------------------
+
 Virtual Env: Pyhton Virtual Environment has been created for the project:
 - command: pip3 install -r requirements.txt
 
