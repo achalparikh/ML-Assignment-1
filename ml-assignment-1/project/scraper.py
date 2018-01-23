@@ -39,7 +39,7 @@ for tr in tableData.find_all("tr"):
 
 #create pandas dataframe using the list
 df = pandas.DataFrame(dataList)
-df = df[['Title', 'Weekend Earning', 'Overall Earning', "Weeks"]]
+df = df[['Title', 'Weekend Earning', 'Overall Earning', 'Weeks']]
 
 #create a CSV file from cleaned data
 df.to_csv("IMDB Box Office Data.csv")
