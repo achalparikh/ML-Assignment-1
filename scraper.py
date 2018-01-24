@@ -30,8 +30,8 @@ for tr in tableData.find_all("tr"):
     weeks = tr.find("td", {"class":"weeksColumn"})
 
     #sting formatting for title and weekend earning
-    title = title.text.replace("\n", "").replace(" ", "")
-    weekendEarning = weekendEarning.text.replace("\n", "").replace(" ", "")
+    title = title.text.strip()
+    weekendEarning = weekendEarning.text.strip()
 
     #Add data to a list
     dataDir = {"Title": title, "Weekend Earning": weekendEarning, "Overall Earning": overallEarning.text, "Weeks": weeks.text}
