@@ -1,19 +1,23 @@
 # ML-Assignment-1
-Description: IMDB Top weekly movie scraper 
+Description: IMDB Top weekly movie scraper
 
 -------------------------------------------------------------------------
 
 Virtual Env: Pyhton Virtual Environment has been created for the project:
-- command: pip3 install -r requirements.txt
+- the virtual environment contains all required libraries for the web-scraper
+- to activate virtual environment:
+  - run command: source project1/bin/activate
+- run command: python3 scraper.py
+
+Debug: If errors are encountered during script run in activated virtual environment:
+- Refresh the installed libraries:
+  - run command: pip3 install -r requirements.txt
+- run command: python3 scraper.py
+
 
 -------------------------------------------------------------------------
 
 Raw Python Env: scraper.py requires the following installations:
 - Python 3
-- Pandas Library 
-  - command: pip3 install pandas
-- Requests Library
-  - command: pip3 install requests 
-- BeautifulSoup Library
-  - command: pip3 insall bs4
-
+- run command: pip3 install -r requirements.txt
+- run command: python3 scraper.py
