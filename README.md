@@ -1,4 +1,8 @@
 # ML-Assignment-1
+
+# Author: Achal Parikh
+# Student Id: 100520618
+
 Description: IMDB Top weekly movie scraper
 
 -------------------------------------------------------------------------
